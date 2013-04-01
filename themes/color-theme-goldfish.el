@@ -10,6 +10,7 @@
 (setq debug-on-error t)
 
 (defconst custom-theme-description "A custom color theme")
+
 (defconst custom-theme-name "Custom theme")
 
 ;; background -> background
@@ -23,14 +24,15 @@
 ;; function name -> font-lock-function-name-face
 
 (setq theme-defaults '(color-theme-goldfish
-  ((background-color . "#2E3336")
+  ((background-color . "#1D2021")
    (background-mode . dark)
    (border-color . "#000000")
    (cursor-color . "#999999")
    (foreground-color . "#F8F8F2")
    (mouse-color . "black"))
 
- (fringe ((t (:background "#ffffff"))))
+ ;; Side borders
+ (fringe ((t (:background "#1D2021"))))
 
  ;; The bottom active tab
  (mode-line ((t (:foreground "#999999" :background "#222222"))))

@@ -13,16 +13,6 @@
 
 (defconst custom-theme-name "Custom theme")
 
-;; background -> background
-;; foreground -> foreground
-;; selection -> region
-;; Built-in constant -> font-lock-builtin-face
-;; String -> font-lock-string-face
-;; comment -> font-lock-comment-faceco
-;; variable -> font-lock-variable-name-face
-;; A custom color theme
-;; function name -> font-lock-function-name-face
-
 (setq theme-defaults '(color-theme-goldfish
   ((background-color . "#1D2021")
    (background-mode . dark)
@@ -31,22 +21,36 @@
    (foreground-color . "#F8F8F2")
    (mouse-color . "black"))
 
- ;; Side borders
- (fringe ((t (:background "#1D2021"))))
+   ;; Side borders
+   (fringe ((t (:background "#1D2021"))))
 
- ;; The bottom active tab
- (mode-line ((t (:foreground "#999999" :background "#222222"))))
+   ;; The bottom active tab
+   (mode-line ((t (:foreground "#999999" :background "#444444"))))
 
- (region ((t (:foreground "#465459" :background "#161A1F"))))
- (font-lock-builtin-face ((t (:foreground "#F38630"))))
- (font-lock-comment-face ((t (:foreground "#505C63"))))
- (font-lock-function-name-face ((t (:foreground "#AEE239"))))
- (font-lock-keyword-face ((t (:foreground "#A7DBD8")))) ;; keywords
- (font-lock-string-face ((t (:foreground "#F8F8F0"))))
- (font-lock-type-face ((t (:foreground"#999999"))))
- (font-lock-variable-name-face ((t (:foreground "#FD971F"))))
- (minibuffer-prompt ((t (:foreground "#999999" :bold t))))
- (font-lock-warning-face ((t (:foreground "#999999" :bold t))))))
+   ;; Highlight region color
+   (region ((t (:foreground "#465459" :background "#161A1F"))))
+
+   ;; Builtin
+   (font-lock-builtin-face ((t (:foreground "#F38630"))))
+
+   ;; Comments
+   (font-lock-comment-face ((t (:foreground "#505C63"))))
+
+   ;; Function names
+   (font-lock-function-name-face ((t (:foreground "#AEE239"))))
+
+   ;; Keywords
+   (font-lock-keyword-face ((t (:foreground "#A7DBD8"))))
+
+   ;; Strings
+   (font-lock-string-face ((t (:foreground "#F8F8F0"))))
+
+   ;; Variables
+   (font-lock-variable-name-face ((t (:foreground "#FD971F"))))
+
+   (font-lock-type-face ((t (:foreground"#999999"))))
+   (minibuffer-prompt ((t (:foreground "#999999" :bold t))))
+   (font-lock-warning-face ((t (:foreground "#999999" :bold t))))))
 
 (defun color-theme-goldfish ()
   (interactive)

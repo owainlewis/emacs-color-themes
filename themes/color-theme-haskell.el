@@ -1,7 +1,12 @@
 ;; ---------------------------
 ;;
-;; Goldfish Color Theme
+;; Color Theme Haskell
 ;;
+;; M-x customize-face
+;;
+;; Color guide
+;;
+;; + Green "#AEE239"
 ;; ----------------------------
 
 (eval-when-compile
@@ -9,11 +14,11 @@
 
 (setq debug-on-error t)
 
-(defconst custom-theme-description "A custom color theme")
+(defconst custom-theme-description "A dark color theme")
 
-(defconst custom-theme-name "Custom theme")
+(defconst custom-theme-name "Haskell")
 
-(setq theme-defaults '(color-theme-goldfish
+(setq theme-defaults '(color-theme-haskell
   ((background-color . "#1D2021")
    (background-mode . dark)
    (border-color . "#000000")
@@ -25,7 +30,13 @@
    (fringe ((t (:background "#1D2021"))))
 
    ;; The bottom active tab
-   (mode-line ((t (:foreground "#999999" :background "#444444"))))
+   (mode-line ((t (:foreground "#999999" :background "#555555"))))
+
+   ;; The bottom inactive tab
+   (mode-line-inactive ((t (:foreground "#666666" :background "#333333"))))
+
+   ;; Dir-ed search prompt
+   (minibuffer-prompt ((default (:foreground "#A7DBD8"))))
 
    ;; Highlight region color
    (region ((t (:foreground "#465459" :background "#161A1F"))))
@@ -49,10 +60,10 @@
    (font-lock-variable-name-face ((t (:foreground "#FD971F"))))
 
    (font-lock-type-face ((t (:foreground"#999999"))))
-   (minibuffer-prompt ((t (:foreground "#999999" :bold t))))
+
    (font-lock-warning-face ((t (:foreground "#999999" :bold t))))))
 
-(defun color-theme-goldfish ()
+(defun color-theme-haskell ()
   (interactive)
   (color-theme-install theme-defaults))
 
@@ -61,5 +72,5 @@
     custom-theme-name
     custom-theme-description))
 
-(provide 'color-theme-goldfish)
+(provide 'color-theme-haskell)
 

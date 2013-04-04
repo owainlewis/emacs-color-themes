@@ -1,6 +1,6 @@
 ;; ---------------------------
 ;;
-;; Color Theme Haskell
+;; Color Theme Hickey
 ;;
 ;; M-x customize-face
 ;;
@@ -16,9 +16,9 @@
 
 (defconst custom-theme-description "A dark color theme")
 
-(defconst custom-theme-name "Haskell")
+(defconst custom-theme-name "hickey")
 
-(setq theme-defaults '(color-theme-haskell
+(setq theme-defaults '(color-theme-hickey
   ((background-color . "#1D2021")
    (background-mode . dark)
    (border-color . "#000000")
@@ -63,14 +63,14 @@
 
    (font-lock-warning-face ((t (:foreground "#999999" :bold t))))))
 
-(defun color-theme-haskell ()
+(defun color-theme-hickey ()
   (interactive)
   (color-theme-install theme-defaults))
 
 (add-to-list 'color-themes
-  `(color-theme-custom-theme
+  `(color-theme-hickey
     custom-theme-name
     custom-theme-description))
 
-(provide 'color-theme-haskell)
+(provide 'color-theme-hickey)
 

@@ -30,7 +30,7 @@ A dark theme.
 
 ## Fogus
 
-A dark blue theme which is more or less then Tron theme.
+A dark blue theme which is more or less the Tron theme.
 
 ![](https://raw.github.com/owainlewis/emacs-color-themes/master/previews/fogus.png)
 

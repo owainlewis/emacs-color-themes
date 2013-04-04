@@ -2,11 +2,6 @@
 ;;
 ;; Color Theme Hickey
 ;;
-;; M-x customize-face
-;;
-;; Color guide
-;;
-;; + Green "#AEE239"
 ;; ----------------------------
 
 (eval-when-compile
@@ -59,7 +54,7 @@
    ;; Variables
    (font-lock-variable-name-face ((t (:foreground "#FD971F"))))
 
-   (font-lock-type-face ((t (:foreground"#999999"))))
+   (font-lock-type-face ((t (:foreground "#999999"))))
 
    (font-lock-warning-face ((t (:foreground "#999999" :bold t))))))
 

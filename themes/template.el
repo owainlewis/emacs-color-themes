@@ -1,6 +1,6 @@
 ;; -------------------------------------
 ;;
-;; Custom Theme
+;; Custom Theme M-x customize-face
 ;;
 ;; -------------------------------------
 ;; Color Guide

@@ -11,7 +11,7 @@
 
 (defconst custom-theme-description "A dark color theme")
 
-(defconst custom-theme-name "hickey")
+(defconst custom-theme-name "Hickey")
 
 (setq theme-defaults '(color-theme-hickey
   ((background-color . "#1D2021")

@@ -27,3 +27,9 @@ A dark and grungy theme.
 
 ![](https://raw.github.com/owainlewis/emacs-color-themes/master/previews/dorsey.png)
 
+## Fogus
+
+A dark blue theme which is more or less then Tron theme.
+
+![](https://raw.github.com/owainlewis/emacs-color-themes/master/previews/fogus.png)
+

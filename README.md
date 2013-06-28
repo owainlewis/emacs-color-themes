@@ -1,19 +1,22 @@
-# Emacs colour themes
+# Emacs themes
 
-Emacs versions of a selection of the brilliant ST2 colour themes by Dayle Rees adapted slightly for Emacs. 
+Emacs versions of a selection of the brilliant ST2 colour themes by Dayle Rees adapted slightly for Emacs.
 
-Most of them have been modified for my personal taste and Emacs setup. 
+Most of them have been modified for my personal taste and Emacs setup.
 
 All the themes are named after personal tech and programming heroes.
 
 ## Use
 
-Just copy the themes and require them. Running install.sh will put the themes in your .emacs.d where you can then do
+Just copy the themes and require them.
+
+Running install.sh will put the themes in  ~/.emacs.d/themes
+
+To load a theme add the following to your init.el
 
 ```elisp
-(require 'color-theme-hickey)
-(require 'color-theme-fogus)
-(require 'color-theme-dorsey)
+(add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
+(load-theme 'hickey t)
 ```
 
 One line install script

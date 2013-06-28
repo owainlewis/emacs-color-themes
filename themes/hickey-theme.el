@@ -1,6 +1,6 @@
 ;; ---------------------------
 ;;
-;; Color Theme Hickey
+;; Hickey: A dark color theme for Emacs24+
 ;;
 ;; ----------------------------
 
@@ -10,21 +10,22 @@
 (deftheme hickey
   "A dark colour theme")
 
-(let ((hickey-background  "#1D2021")
-      (hickey-foreground  "#F8F8F2")
-      (hickey-dark-gray   "#333333")
-      (hickey-mid-gray "#555555")
-      (hickey-light-gray "#666666")
-      (hickey-lightest-gray "#999999")
-      (hickey-comment-slate "#505C63")
-      (hickey-orange      "#F38630")
-      (hickey-light-slate "#465459")
-      (hickey-dark-slate  "#161A1F")
-      (hickey-light-blue  "#A7DBD8")
-      (hickey-strong-green "#AEE239")
-      (hickey-subtle-blue "#A7DBD8")
-      (hickey-dirty-white "#F8F8F0")
+(let ((hickey-background     "#1D2021")
+      (hickey-foreground     "#F8F8F2")
+      (hickey-dark-gray      "#333333")
+      (hickey-mid-gray       "#555555")
+      (hickey-light-gray     "#666666")
+      (hickey-lightest-gray  "#999999")
+      (hickey-comment-slate  "#505C63")
+      (hickey-orange         "#F38630")
+      (hickey-light-slate    "#465459")
+      (hickey-dark-slate     "#161A1F")
+      (hickey-light-blue     "#A7DBD8")
+      (hickey-strong-green   "#AEE239")
+      (hickey-subtle-blue    "#A7DBD8")
+      (hickey-dirty-white    "#F8F8F0")
       (hickey-lighter-orange "#FD971F"))
+
   (custom-theme-set-faces
    'hickey
 
@@ -34,9 +35,9 @@
    `(hl-line ((t (:background ,hickey-light-gray))))
    `(modeline ((t (:foreground ,hickey-lightest-gray :background ,hickey-mid-gray))))
    `(mode-line-inactive ((t (:foreground ,hickey-light-gray :background ,hickey-dark-gray))))
-   `(mode-line ((t (:foreground ,hickey-background :background ,hickey-light-blue))))))
+   `(mode-line ((t (:foreground ,hickey-background :background ,hickey-light-blue)))))
    `(fringe ((t (:background ,hickey-background))))
-   
+
    `(region ((t (:foreground ,hickey-light-slate :background ,hickey-dark-slate))))
    ;; Dir-ed search prompt
    `(minibuffer-prompt ((default (:foreground ,hickey-light-blue))))
@@ -56,7 +57,7 @@
    `(font-lock-variable-name-face ((t (:foreground ,hickey-lighter-orange))))
    `(font-lock-type-face ((t (:foreground ,hickey-lightest-gray))))
    `(font-lock-warning-face ((t (:foreground ,hickey-lightest-gray :bold t))))
-   
+
    ;; ---------------- Package Specific Stuff -----------
    ;; Powerline
    `(powerline-active1 ((t (:background ,hickey-dirty-white :foreground ,hickey-background)))))

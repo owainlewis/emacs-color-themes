@@ -1,10 +1,8 @@
 # Emacs themes
 
-Emacs versions of a selection of the brilliant ST2 colour themes by Dayle Rees adapted slightly for Emacs.
+Emacs interpretations of the brilliant ST2 colour themes by Dayle Rees adapted slightly for Emacs.
 
-Most of them have been modified for my personal taste and Emacs setup.
-
-All the themes are named after personal tech and programming heroes.
+All the themes are named after personal programming and tech heroes.
 
 ## Use
 
@@ -42,4 +40,13 @@ A dark blue theme which is more or less the Tron theme.
 A dark and grungy theme.
 
 ![](https://raw.github.com/owainlewis/emacs-color-themes/master/previews/dorsey.png)
+
+## Contributors
+
+Thanks to the following contributors
+
++ Will Speak https://github.com/iwillspeak
+
+
+
 

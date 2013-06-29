@@ -37,7 +37,7 @@
    `(mode-line-inactive ((t (:foreground ,hickey-light-gray :background ,hickey-dark-gray))))
    `(mode-line ((t (:foreground ,hickey-background :background ,hickey-light-blue)))))
    `(fringe ((t (:background ,hickey-background))))
-
+   ;; Highlight region color
    `(region ((t (:foreground ,hickey-light-slate :background ,hickey-dark-slate))))
    ;; Dir-ed search prompt
    `(minibuffer-prompt ((default (:foreground ,hickey-light-blue))))

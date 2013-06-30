@@ -45,6 +45,8 @@
    ;; ---------------- Code Highlighting ---------------
    ;; Builtin
    `(font-lock-builtin-face ((t (:foreground ,fogus-light-blue))))
+   ;; Constants
+   `(font-lock-constant-face ((t (:foreground ,fogus-green))))
    ;; Comments
    `(font-lock-comment-face ((t (:foreground ,fogus-blue))))
    ;; Function names
@@ -63,7 +65,7 @@
    `(powerline-active1 ((t (:background ,fogus-off-white :foreground ,fogus-background))))))
 
 
-;;;###Autoload
+;;;###autoload
 (when load-file-name
   (add-to-list 'custom-theme-load-path
                (file-name-as-directory (file-name-directory load-file-name)))

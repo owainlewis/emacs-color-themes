@@ -45,6 +45,8 @@
    ;; ---------------- Code Highlighting ---------------
    ;; Builtins
    `(font-lock-builtin-face ((t (:foreground ,hickey-orange))))
+   ;; Constants
+   `(font-lock-constant-face ((t (:foreground ,hickey-strong-green))))
    ;; Comments
    `(font-lock-comment-face ((t (:foreground ,hickey-comment-slate))))
    ;; Function names

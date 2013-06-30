@@ -10,18 +10,18 @@
 (deftheme dorsey
   "A dark grunge color theme")
 
-(let ((dorsey-background "#292D30")
+(let ((dorsey-background        "#292D30")
       (dorsey-darker-background "#222218")
-      (dorsey-rich-black "#161A1F")
-      (dorsey-mid-gray   "#666666")
-      (dorsey-light-gray "#999999")
-      (dorsey-foreground "#FFFFFF")
-      (dorsey-light-blue "#9FB3C2")
-      (dorsey-bluegray    "#4F5A63")
-      (dorsey-blue-green "#8AB8A2")
-      (dorsey-yellow      "#C7AF3F")
-      (dorsey-light-yellow "#FFE792")
-      (dorsey-yellow-white "#FAFFDB"))
+      (dorsey-rich-black        "#161A1F")
+      (dorsey-mid-gray          "#666666")
+      (dorsey-light-gray        "#999999")
+      (dorsey-foreground        "#FFFFFF")
+      (dorsey-light-blue        "#9FB3C2")
+      (dorsey-bluegray          "#4F5A63")
+      (dorsey-blue-green        "#8AB8A2")
+      (dorsey-yellow            "#C7AF3F")
+      (dorsey-light-yellow      "#FFE792")
+      (dorsey-yellow-white      "#FAFFDB"))
   (custom-theme-set-faces
    'dorsey
    

@@ -17,7 +17,11 @@ To load a theme add the following to your init.el
 (load-theme 'hickey t)
 ```
 
-You can browse the themes with M-x load-theme <RET> name-of-theme
+You can browse the themes with 
+
+```
+M-x load-theme <RET> name-of-theme
+```
 
 One line install script
 

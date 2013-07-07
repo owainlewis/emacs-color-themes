@@ -1,6 +1,6 @@
 # Emacs themes
 
-Emacs interpretations of the brilliant ST2 colour themes by Dayle Rees adapted slightly for Emacs.
+Emacs color themes originally inspired by some ST2 color themes by Dayle Rees.
 
 All the themes are named after personal programming and tech heroes.
 

@@ -1,6 +1,19 @@
+;; This program is free software; you can redistribute it and/or modify
+;; it under the terms of the GNU General Public License as published by
+;; the Free Software Foundation, either version 3 of the License, or
+;; (at your option) any later version.
+
+;; This program is distributed in the hope that it will be useful,
+;; but WITHOUT ANY WARRANTY; without even the implied warranty of
+;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+;; GNU General Public License for more details.
+
+;; You should have received a copy of the GNU General Public License
+;; along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
 ;; ---------------------------
 ;;
-;; Fogus: A bluecolor theme foro Emacs24+
+;; Fogus: A blue color theme for Emacs24+
 ;;
 ;; ----------------------------
 
@@ -28,6 +41,18 @@
       (fogus-green           "#95cc5e"))
   (custom-theme-set-faces
    'fogus
+
+   `(bold ((t (:bold t))))
+   `(button ((t (:foreground, *keywords* :underline t))))
+   `(default ((t (:background, *background* :foreground, *normal*))))
+   `(escape-glyph ((t (:foreground, *string-inner*))))
+   `(header-line ((t (:background, *mode-line-bg* :foreground, *normal*)))) ;; info header
+   `(highlight ((t (:background, *current-line*))))
+   `(highlight-face ((t (:background, *current-line*))))
+   `(hl-line ((t (:background, *current-line* :underline t))))
+   `(info-xref ((t (:foreground, *keywords* :underline t))))
+   `(region ((t (:background, *visual-selection*))))
+   `(underline ((nil (:underline t))))
 
    ;; ----------------- Frame stuff --------------------
    `(default ((t (:background ,fogus-background :foreground ,fogus-foreground))))

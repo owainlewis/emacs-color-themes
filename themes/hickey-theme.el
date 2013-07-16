@@ -13,7 +13,7 @@
 
 ;; ---------------------------
 ;;
-;; Hickey: A dark color theme for Emacs24+
+;; Hickey: A dark color theme
 ;;
 ;; ----------------------------
 

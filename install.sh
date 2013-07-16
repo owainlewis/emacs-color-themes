@@ -13,5 +13,8 @@ cp themes/dorsey-theme.el ~/.emacs.d/themes/dorsey-theme.el
 echo "Installing Wilson"
 cp themes/wilson-theme.el ~/.emacs.d/themes/wilson-theme.el
 
+echo "Installing Graham"
+cp themes/graham-theme.el ~/.emacs.d/themes/graham-theme.el
+
 echo "Done..\n"
 echo "Remember to include the themes in your .emacs config i.e (load-theme 'hickey t)\n\n"

@@ -13,7 +13,7 @@
 
 ;; ---------------------------
 ;;
-;; Graham: A dark color theme for Emacs24+
+;; Graham: A dark color theme
 ;;
 ;; ----------------------------
 

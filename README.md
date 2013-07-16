@@ -53,6 +53,12 @@ A grungy theme based upon an oilstained and muddy aircraft.
 
 ![](https://raw.github.com/owainlewis/emacs-color-themes/master/previews/wilson.png)
 
+## Graham
+
+A dark red, black and orange color theme
+
+![](https://raw.github.com/owainlewis/emacs-color-themes/master/previews/graham.png)
+
 ## Contributors
 
 Thanks to the following contributors

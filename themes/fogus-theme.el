@@ -13,10 +13,9 @@
 
 ;; ---------------------------
 ;;
-;; Fogus: A blue color theme for Emacs24+
+;; Fogus: An icy dark blue color theme
 ;;
 ;; ----------------------------
-
 
 (unless (>= 24 emacs-major-version)
   (error "requires Emacs 24 or later."))
@@ -27,32 +26,20 @@
 (let ((fogus-background      "#14191F")
       (fogus-foreground      "#AEC2E0")
       (fogus-mid-gray        "#666666")
-      (fogus-darker-gray     "#14191F")
+      (fogus-darker-gray     "#14191f")
       (fogus-white           "#FFFFFF")
       (fogus-off-white       "#F8F8F0")
       (fogus-yellow-white    "#FFE792")
-      (fogus-light-gray-blue "#D0DFE6")
-      (fogus-lightest-blue   "#EFFBFF")
-      (fogus-lighter-blue    "#748AA6")
-      (fogus-light-blue      "#6EE2FF")
+      (fogus-light-gray-blue "#d0dfe6")
+      (fogus-lightest-blue   "#effbff")
+      (fogus-lighter-blue    "#748aa6")
+      (fogus-light-blue      "#6ee2ff")
       (fogus-blue            "#324357")
-      (fogus-dark-blue       "#183C66")
-      (fogus-darker-blue     "#1B232C")
-      (fogus-green           "#95CC5E"))
+      (fogus-dark-blue       "#183c66")
+      (fogus-darker-blue     "#1b232c")
+      (fogus-green           "#95cc5e"))
   (custom-theme-set-faces
    'fogus
-
-   `(bold ((t (:bold t))))
-   `(button ((t (:foreground, *keywords* :underline t))))
-   `(default ((t (:background, *background* :foreground, *normal*))))
-   `(escape-glyph ((t (:foreground, *string-inner*))))
-   `(header-line ((t (:background, *mode-line-bg* :foreground, *normal*)))) ;; info header
-   `(highlight ((t (:background, *current-line*))))
-   `(highlight-face ((t (:background, *current-line*))))
-   `(hl-line ((t (:background, *current-line* :underline t))))
-   `(info-xref ((t (:foreground, *keywords* :underline t))))
-   `(region ((t (:background, *visual-selection*))))
-   `(underline ((nil (:underline t))))
 
    ;; ----------------- Frame stuff --------------------
    `(default ((t (:background ,fogus-background :foreground ,fogus-foreground))))
@@ -70,8 +57,6 @@
    ;; ---------------- Code Highlighting ---------------
    ;; Builtin
    `(font-lock-builtin-face ((t (:foreground ,fogus-light-blue))))
-   ;; Constants
-   `(font-lock-constant-face ((t (:foreground ,fogus-green))))
    ;; Comments
    `(font-lock-comment-face ((t (:foreground ,fogus-blue))))
    ;; Function names
@@ -90,7 +75,7 @@
    `(powerline-active1 ((t (:background ,fogus-off-white :foreground ,fogus-background))))))
 
 
-;;;###autoload
+;;;###Autoload
 (when load-file-name
   (add-to-list 'custom-theme-load-path
                (file-name-as-directory (file-name-directory load-file-name)))

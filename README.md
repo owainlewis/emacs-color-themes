@@ -55,6 +55,11 @@ A grungy theme based upon an oilstained and muddy aircraft.
 
 ## Graham
 
+> What I tell founders is not to sweat the business model too much at first.
+> The most important task at first is to build something people want. If you don't do that,
+> it won't matter how clever your business model is.
+> --<cite>Paul Graham</cite>
+
 A dark red, black and orange color theme
 
 ![](https://raw.github.com/owainlewis/emacs-color-themes/master/previews/graham.png)

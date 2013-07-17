@@ -13,14 +13,14 @@
 
 ;; ---------------------------
 ;;
-;; Graham: A dark color theme
+;; McCarthy: A light color theme
 ;;
 ;; ----------------------------
 
 (unless (>= 24 emacs-major-version)
   (error "requires Emacs 24 or later."))
 
-(deftheme mcarthy "A dark color theme for Emacs")
+(deftheme mccarthy "A dark color theme for Emacs")
 
 (let ((*background*         "#f6f7f8")
       (*comments*           "#2c5115")
@@ -43,7 +43,7 @@
       (*visual-selection*   "#CCC"))
 
   (custom-theme-set-faces
-   'mcarthy
+   'mccarthy
 
    `(bold ((t (:bold t))))
    `(button ((t (:foreground, *keywords* :underline t))))
@@ -102,7 +102,7 @@
   (add-to-list 'custom-theme-load-path
                (file-name-as-directory (file-name-directory load-file-name))))
 
-(provide-theme 'mcarthy)
+(provide-theme 'mccarthy)
 
 ;; Local Variables:
 ;; no-byte-compile: t

@@ -29,6 +29,17 @@ One line install script
 git clone https://github.com/owainlewis/emacs-color-themes.git && cd emacs-color-themes && ./install.sh
 ```
 
+## Graham
+
+> What I tell founders is not to sweat the business model too much at first.
+> The most important task at first is to build something people want.
+> If you don't do that, it won't matter how clever your business model is.
+> -- <cite>Paul Graham</cite>
+
+A dark red, black and orange color theme
+
+![](https://raw.github.com/owainlewis/emacs-color-themes/master/previews/graham.png)
+
 ## Hickey
 
 > Choose immutability and see where it takes you
@@ -64,17 +75,6 @@ A light theme loosely based on Facebook colors
 A grungy theme based upon an oilstained and muddy aircraft.
 
 ![](https://raw.github.com/owainlewis/emacs-color-themes/master/previews/wilson.png)
-
-## Graham
-
-> What I tell founders is not to sweat the business model too much at first.
-> The most important task at first is to build something people want.
-> If you don't do that, it won't matter how clever your business model is.
-> -- <cite>Paul Graham</cite>
-
-A dark red, black and orange color theme
-
-![](https://raw.github.com/owainlewis/emacs-color-themes/master/previews/graham.png)
 
 ## Contributors
 

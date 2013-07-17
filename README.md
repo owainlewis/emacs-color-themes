@@ -17,7 +17,7 @@ To load a theme add the following to your init.el
 (load-theme 'hickey t)
 ```
 
-You can browse the themes with 
+You can browse the themes with
 
 ```
 M-x load-theme <RET> name-of-theme
@@ -52,6 +52,12 @@ A dark blue theme which is more or less the Tron theme.
 A dark and grungy theme.
 
 ![](https://raw.github.com/owainlewis/emacs-color-themes/master/previews/dorsey.png)
+
+## McCarthy
+
+A light theme loosely based on Facebook colors
+
+![](https://raw.github.com/owainlewis/emacs-color-themes/master/previews/mccarthy.png)
 
 ## Wilson
 

@@ -4,6 +4,8 @@ Emacs color themes originally inspired by some ST2 color themes by Dayle Rees.
 
 All the themes are named after personal programming and tech heroes.
 
+Contributions, fixes and feedback very welcome : )
+
 ## Use
 
 Just copy the themes and require them.

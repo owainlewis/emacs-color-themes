@@ -19,5 +19,8 @@ cp themes/graham-theme.el ~/.emacs.d/themes/graham-theme.el
 echo "Installing McCarthy"
 cp themes/mccarthy-theme.el ~/.emacs.d/themes/mccarthy-theme.el
 
+echo "Installing Odersky"
+cp themes/mccarthy-theme.el ~/.emacs.d/themes/odersky-theme.el
+
 echo "Done..\n"
 echo "Remember to include the themes in your .emacs config i.e (load-theme 'hickey t)\n\n"

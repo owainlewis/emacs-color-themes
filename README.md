@@ -40,6 +40,12 @@ A dark red, black and orange color theme
 
 ![](https://raw.github.com/owainlewis/emacs-color-themes/master/previews/graham.png)
 
+## Odersky
+
+A color theme based on Goldfish
+
+![](https://raw.github.com/owainlewis/emacs-color-themes/master/previews/odersky.png)
+
 ## Hickey
 
 > Choose immutability and see where it takes you

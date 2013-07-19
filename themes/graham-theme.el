@@ -31,7 +31,9 @@
       (*line-number*        "#3D3D3D")
       (*method-declaration* "#FFD2A7")
       (*mode-line-bg*       "#CCCCCC")
+      (*mode-inactive-bg*   "#222")
       (*mode-line-fg*       "#333333")
+      (*mode-inactive-fg*   "#FFF")
       (*normal*             "#DEDEDE")
       (*number*             "#FC580C")
       (*operators*          "#F38630")
@@ -80,7 +82,7 @@
    `(linum ((t (:background, *line-number*))))
    `(minibuffer-prompt ((t (:foreground, *variable*))))
    `(mode-line ((t (:background, *mode-line-bg* :foreground, *mode-line-fg*))))
-   `(mode-line-inactive ((t (:background, *mode-line-bg* :foreground, *background*))))
+   `(mode-line-inactive ((t (:background, *mode-inactive-bg* :foreground, *mode-inactive-fg*))))
    `(cursor ((t (:background, *cursor-underscore*))))
    `(text-cursor ((t (:background, *cursor-underscore*))))
    `(vertical-border ((t (:foreground, *background*)))) ;; between splits

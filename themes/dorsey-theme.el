@@ -23,8 +23,8 @@
 (deftheme dorsey
   "A dark grunge color theme")
 
-(let ((dorsey-background        "#292D30")
-      (dorsey-darker-background "#222218")
+(let ((dorsey-background        "#252727")
+      (dorsey-darker-background "#212121")
       (dorsey-rich-black        "#161A1F")
       (dorsey-mid-gray          "#666666")
       (dorsey-light-gray        "#999999")
@@ -34,16 +34,20 @@
       (dorsey-blue-green        "#8AB8A2")
       (dorsey-yellow            "#C7AF3F")
       (dorsey-light-yellow      "#FFE792")
-      (dorsey-yellow-white      "#FAFFDB"))
+      (dorsey-yellow-white      "#FAFFDB")
+      (*mode-line-bg*           "#CCCCCC")
+      (*mode-inactive-bg*       "#222")
+      (*mode-line-fg*           "#333333")
+      (*mode-inactive-fg*       "#FFF"))
   (custom-theme-set-faces
    'dorsey
 
    ;; ----------------- Frame stuff --------------------
-   `(default ((t (:background ,dorsey-background :foreground ,dorsey-foreground))))
+   `(default ((t (:background ,dorsey-darker-background :foreground ,dorsey-foreground))))
    `(cursor  ((t (:background ,dorsey-foreground))))
    `(hl-line ((t (:background ,dorsey-darker-background))))
-   `(modeline ((t (:background ,dorsey-foreground :foreground ,dorsey-light-gray))))
-   `(mode-line-inactive ((t (:box nil :background ,dorsey-foreground :foreground ,dorsey-light-gray))))
+   `(mode-line ((t (:background, *mode-line-bg* :foreground, *mode-line-fg*))))
+   `(mode-line-inactive ((t (:background, *mode-inactive-bg* :foreground, *mode-inactive-fg*))))
    `(mode-line ((t (:box nil :foreground ,dorsey-mid-gray :background ,dorsey-foreground))))
    `(fringe ((t (:background ,dorsey-darker-background))))
    ;; Dir-ed search prompt

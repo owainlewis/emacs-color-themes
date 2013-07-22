@@ -95,6 +95,11 @@ A dark and grungy theme.
 
 ## McCarthy
 
+> It's difficult to be rigorous about whether a machine really 'knows', 'thinks', etc.,
+> because we're hard put to define these things.
+> We understand human mental processes only slightly better than a fish understands swimming.
+> -- <cite>John McCarthy</cite>
+
 A light theme loosely based on Facebook colors
 
 ![](https://raw.github.com/owainlewis/emacs-color-themes/master/previews/mccarthy.png)

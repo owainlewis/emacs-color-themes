@@ -39,6 +39,11 @@ git clone https://github.com/owainlewis/emacs-color-themes.git && cd emacs-color
 
 ## Spolsky
 
+> If something seems possible, that's probably because someone is already doing it.
+> When something seems that it can't possibly work, nobody tries it.
+> Real innovation happens when someone tries anyway, overlooking an obvious flaw, and finds a way to make an idea work.
+> -- <cite>Joel Spolsky</cite>
+
 A theme heavily inspired by the default ST2 theme. My personal favourite.
 
 ![](https://raw.github.com/owainlewis/emacs-color-themes/master/previews/spolsky.png)

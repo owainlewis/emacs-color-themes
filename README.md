@@ -8,7 +8,13 @@ Contributions, fixes and feedback very welcome : )
 
 ## Use
 
-Just copy the themes and require them.
+The easiest way to install is to use MELPA
+
+```
+M-x package-install <RET> sublime-themes
+```
+
+## Manual install
 
 Running install.sh will put the themes in  ~/.emacs.d/themes
 

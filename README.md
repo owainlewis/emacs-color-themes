@@ -95,7 +95,6 @@ A grungy theme based upon an oilstained and muddy aircraft.
 Thanks to the following contributors
 
 + Will Speak https://github.com/iwillspeak
-
-
-
++ Steve Purcell https://github.com/purcell
++ Donald Ephraim Curtis https://github.com/milkypostman
 

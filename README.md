@@ -76,6 +76,10 @@ A dark theme.
 
 ## Fogus
 
+> The apprentice avoids all use of Java classes. The journeyman embraces Java classes.
+> The master knows which classes to embrace and which to avoid.
+> -- <cite>Michael Fogus</cite>
+
 A dark blue theme which is more or less the Tron theme.
 
 ![](https://raw.github.com/owainlewis/emacs-color-themes/master/previews/fogus.png)

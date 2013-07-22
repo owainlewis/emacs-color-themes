@@ -37,6 +37,12 @@ One line install script
 git clone https://github.com/owainlewis/emacs-color-themes.git && cd emacs-color-themes && ./install.sh
 ```
 
+## Spolsky
+
+A theme heavily inspired by the default ST2 theme. My personal favourite.
+
+![](https://raw.github.com/owainlewis/emacs-color-themes/master/previews/spolsky.png)
+
 ## Graham
 
 > What I tell founders is not to sweat the business model too much at first.

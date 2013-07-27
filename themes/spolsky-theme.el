@@ -46,7 +46,7 @@
       (*regexp*             "#A63A62")
       (*string*             "#EEDC82")
       (*variable*           "#FD971Fg")
-      (*visual-selection*   "#1D1F21"))
+      (*visual-selection*   "#555"))
 
   (custom-theme-set-faces
    'spolsky

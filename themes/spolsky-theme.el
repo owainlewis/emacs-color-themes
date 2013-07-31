@@ -45,7 +45,7 @@
       (*warning*            "#FF6C60")
       (*regexp*             "#A63A62")
       (*string*             "#EEDC82")
-      (*variable*           "#FD971Fg")
+      (*variable*           "#FD971F")
       (*visual-selection*   "#555"))
 
   (custom-theme-set-faces

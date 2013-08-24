@@ -22,13 +22,13 @@
 
 (deftheme odersky "A dark color theme for Emacs")
 
-(let ((*background*         "#2E3336")
+(let ((*background*         "#1E2326")
       (*comments*           "#505C63")
       (*constant*           "#F38630")
       (*current-line*       "#151515")
       (*cursor-underscore*  "#FFFAAA")
       (*keywords*           "#A7DBD8")
-      (*line-number*        "#3D3D3D")
+      (*line-number*        "#1E2326")
       (*method-declaration* "#FFD2A7")
       (*mode-line-bg*       "#505C63")
       (*mode-line-fg*       "#E0E4CC")

@@ -29,17 +29,17 @@
   (custom-theme-set-faces
    'granger
 
-   '(default                          ((t (:foreground "#ABAEB3" :background "#222222" ))))
-   '(region                           ((t (:background "#101010" ))))
-   '(cursor                           ((t (:background "#ffffff" ))))
-   '(fringe                           ((t (:background "#2f2f2f" :foreground "#ffffff" ))))
+   '(default                          ((t (:foreground "#ABAEB3" :background "#222222"))))
+   '(region                           ((t (:background "#101010"))))
+   '(cursor                           ((t (:background "#ffffff"))))
+   '(fringe                           ((t (:background "#2f2f2f" :foreground "#ffffff"))))
    '(linum                            ((t (:background "#202020" :foreground "#2f2f2f" 
-                                           :box nil :height 100 ))))
-   '(minibuffer-prompt                ((t (:foreground "#9489C4" :weight bold ))))
-   '(minibuffer-message               ((t (:foreground "#ffffff" ))))
-   '(mode-line                        ((t (:foreground "#FFFFFF" :background "#191919" ))))
+                                           :box nil :height 100))))
+   '(minibuffer-prompt                ((t (:foreground "#9489C4" :weight bold))))
+   '(minibuffer-message               ((t (:foreground "#ffffff"))))
+   '(mode-line                        ((t (:foreground "#FFFFFF" :background "#191919"))))
    '(mode-line-inactive               ((t (:foreground "#777777" :background "#303030" 
-                                           :weight light :box nil :inherit (mode-line )))))
+                                           :weight light :box nil :inherit (mode-line)))))
  
    '(font-lock-keyword-face           ((t (:foreground "#3ca380"))))
    '(font-lock-type-face              ((t (:foreground "#484879"))))

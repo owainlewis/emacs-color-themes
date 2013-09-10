@@ -22,6 +22,10 @@
 
 (deftheme dorsey
   "A dark grunge color theme")
+  
+(custom-theme-set-variables
+  'dorsey
+  '(linum-format " %7i "))
 
 (let ((dorsey-background        "#252727")
       (dorsey-darker-background "#212121")

@@ -22,6 +22,10 @@
 
 (deftheme spolsky  "A dark color theme for Emacs based on Sublime Text 2")
 
+(custom-theme-set-variables
+  'spolsky
+  '(linum-format " %7i "))
+
 (let ((*background*         "#161A1F")
       (*comments*           "#8C8C8C")
       (*constant*           "#FF80F4")

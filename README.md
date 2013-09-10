@@ -37,6 +37,13 @@ One line install script
 git clone https://github.com/owainlewis/emacs-color-themes.git && cd emacs-color-themes && ./install.sh
 ```
 
+## Granger
+
+A color theme based on the Light Table default
+
+![](https://raw.github.com/owainlewis/emacs-color-themes/master/previews/granger.png)
+
+
 ## Spolsky
 
 > If something seems possible, that's probably because someone is already doing it.

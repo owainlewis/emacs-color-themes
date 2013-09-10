@@ -51,9 +51,7 @@
    '(font-lock-comment-delimiter-face ((t (:foreground "#666688"))))
  
    '(font-lock-function-name-face     ((t (:foreground "#3ca380"))))
-   '(font-lock-doc-string-face        ((t (:foreground "#496B83"))))
-
-  )
+   '(font-lock-doc-string-face        ((t (:foreground "#496B83")))))
 
 ;;;###autoload
 (when (and (boundp 'custom-theme-load-path) load-file-name)
@@ -65,5 +63,3 @@
 ;; Local Variables:
 ;; no-byte-compile: t
 ;; End:
-
-

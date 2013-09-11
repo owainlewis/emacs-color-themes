@@ -37,7 +37,7 @@
                                            :box nil :height 120))))
    '(minibuffer-prompt                ((t (:foreground "#9489C4" :weight bold))))
    '(minibuffer-message               ((t (:foreground "#ffffff"))))
-   '(mode-line                        ((t (:foreground "#FFFFFF" :background "#191919"))))
+   '(mode-line                        ((t (:foreground "#FFFFFF" :background "#484879"))))
    '(mode-line-inactive               ((t (:foreground "#777777" :background "#303030" 
                                            :weight light :box nil :inherit (mode-line)))))
  

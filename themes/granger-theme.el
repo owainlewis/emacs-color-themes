@@ -34,7 +34,7 @@
    '(cursor                           ((t (:background "#ffffff"))))
    '(fringe                           ((t (:background "#2f2f2f" :foreground "#ffffff"))))
    '(linum                            ((t (:background "#202020" :foreground "#2f2f2f" 
-                                           :box nil :height 100))))
+                                           :box nil :height 120))))
    '(minibuffer-prompt                ((t (:foreground "#9489C4" :weight bold))))
    '(minibuffer-message               ((t (:foreground "#ffffff"))))
    '(mode-line                        ((t (:foreground "#FFFFFF" :background "#191919"))))

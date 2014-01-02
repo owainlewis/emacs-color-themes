@@ -1,6 +1,6 @@
 # Emacs themes
 
-Emacs color themes originally inspired by some ST2 color themes by Dayle Rees.
+A collection of color themes for Emacs24 +
 
 All the themes are named after personal programming and tech heroes.
 
@@ -36,6 +36,15 @@ One line install script
 ```
 git clone https://github.com/owainlewis/emacs-color-themes.git && cd emacs-color-themes && ./install.sh
 ```
+
+## Brin
+
+A color theme based on the Space Grey ST2 theme named after Sergey Brin.
+
+> We believed we could build a better search. We had a simple idea,
+> that not all pages are created equal. Some are more important"
+
+![](https://raw.github.com/owainlewis/emacs-color-themes/master/previews/granger.png)
 
 ## Granger
 

@@ -1,6 +1,9 @@
 echo "\n\nInstalling themes.."
 mkdir -p ~/.emacs.d/themes
 
+echo "Installing Brin"
+cp themes/brin-theme.el ~/.emacs.d/themes/brin-theme.el
+
 echo "Installing Hickey"
 cp themes/hickey-theme.el ~/.emacs.d/themes/hickey-theme.el
 

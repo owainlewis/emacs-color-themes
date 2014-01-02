@@ -2,9 +2,17 @@
 
 A collection of color themes for Emacs24 +
 
-All the themes are named after personal programming and tech heroes.
+All the themes are named after personal programming and tech
 
-Contributions, fixes and feedback very welcome : )
+Fixes, pull requests and feedback very welcome : )
+
+## Contributors
+
+A big thanks to the following contributors
+
++ Will Speak https://github.com/iwillspeak
++ Steve Purcell https://github.com/purcell
++ Donald Ephraim Curtis https://github.com/milkypostman
 
 ## Use
 
@@ -125,12 +133,4 @@ A light theme loosely based on Facebook colors
 A grungy theme based upon an oilstained and muddy aircraft.
 
 ![](https://raw.github.com/owainlewis/emacs-color-themes/master/previews/wilson.png)
-
-## Contributors
-
-Thanks to the following contributors
-
-+ Will Speak https://github.com/iwillspeak
-+ Steve Purcell https://github.com/purcell
-+ Donald Ephraim Curtis https://github.com/milkypostman
 

@@ -44,7 +44,7 @@ A color theme based on the Space Grey ST2 theme named after Sergey Brin.
 > We believed we could build a better search. We had a simple idea,
 > that not all pages are created equal. Some are more important"
 
-![](https://raw.github.com/owainlewis/emacs-color-themes/master/previews/granger.png)
+![](https://raw.github.com/owainlewis/emacs-color-themes/master/previews/brin.png)
 
 ## Granger
 

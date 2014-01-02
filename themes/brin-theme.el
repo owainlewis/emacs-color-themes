@@ -23,7 +23,7 @@
 (deftheme brin "Space Grey theme for Emacs")
 
   (custom-theme-set-variables
-    'spacegrey
+    'brin
     '(linum-format " %5i "))
 
   (let ((background "#1C1F26")
@@ -49,7 +49,7 @@
         (white     "#ffffff"))
 
   (custom-theme-set-faces
-   'granger
+   'brin
 
 ;; Default colors
 ;; *****************************************************************************************

@@ -26,7 +26,7 @@
     'brin
     '(linum-format " %5i "))
 
-  (let ((background "#1C1F26")
+  (let ((background "#11141c")
         (gutters    "#343d46")
         (gutter-fg  "#65737e")
         (gutters-active "#4f5b66")

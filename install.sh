@@ -23,7 +23,7 @@ echo "Installing McCarthy"
 cp themes/mccarthy-theme.el ~/.emacs.d/themes/mccarthy-theme.el
 
 echo "Installing Odersky"
-cp themes/mccarthy-theme.el ~/.emacs.d/themes/odersky-theme.el
+cp themes/odersky-theme.el ~/.emacs.d/themes/odersky-theme.el
 
 echo "Installing Spolsky"
 cp themes/spolsky-theme.el ~/.emacs.d/themes/spolsky-theme.el

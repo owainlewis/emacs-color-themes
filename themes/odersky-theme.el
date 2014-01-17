@@ -23,7 +23,7 @@
 (deftheme odersky "A dark color theme for Emacs")
 
 (let ((*background*         "#1E2326")
-      (*comments*           "#505C63")
+      (*comments*           "#999999")
       (*constant*           "#F38630")
       (*current-line*       "#151515")
       (*cursor-underscore*  "#FFFAAA")

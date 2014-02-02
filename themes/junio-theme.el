@@ -22,61 +22,61 @@
 
 (deftheme junio "A vivid theme like chocolates")
 
-(let ((chocobi-background     "#111010")
-      (chocobi-foreground     "#D8D8D3")
-      (chocobi-comment-slate  "#4F3F3F")
-      (chocobi-black          "#000000")
-      (chocobi-constant       "#6F8FCC")
-      (chocobi-mid-gray       "#555555")
-      (chocobi-light-gray     "#BCBCBC")
-      (chocobi-type           "#EF5C5F")
-      (chocobi-green          "#8fbfdc")
-      (chocobi-cursor         "#F0D0A0")
-      (chocobi-dark-slate     "#403D3D")
-      (chocobi-key            "#FFB070")
-      (chocobi-func           "#8AAFFA")
-      (chocobi-yellow         "#E6DB74")
-      (chocobi-string         "#A6AB04")
-      (chocobi-sky-blue       "#A197BF")
-      (chocobi-mode           "#A1BAA1")
-      (chocobi-mode-back      "#1A1A1A")
-      (chocobi-warn-red       "#EE0000"))
+(let ((junio-background     "#111010")
+      (junio-foreground     "#D8D8D3")
+      (junio-comment-slate  "#4F3F3F")
+      (junio-black          "#000000")
+      (junio-constant       "#6F8FCC")
+      (junio-mid-gray       "#555555")
+      (junio-light-gray     "#BCBCBC")
+      (junio-type           "#EF5C5F")
+      (junio-green          "#8fbfdc")
+      (junio-cursor         "#F0D0A0")
+      (junio-dark-slate     "#403D3D")
+      (junio-key            "#FFB070")
+      (junio-func           "#8AAFFA")
+      (junio-yellow         "#E6DB74")
+      (junio-string         "#A6AB04")
+      (junio-sky-blue       "#A197BF")
+      (junio-mode           "#A1BAA1")
+      (junio-mode-back      "#1A1A1A")
+      (junio-warn-red       "#EE0000"))
   (custom-theme-set-faces
-   'chocobi
+   'junio
 
    ;; ----------------- Frame stuff --------------------
-   `(default ((t (:background ,chocobi-background :foreground ,chocobi-foreground))))
-   `(cursor  ((t (:background ,chocobi-cursor))))
-   `(hl-line ((t (:background ,chocobi-black))))
-   `(mode-line-inactive ((t (:box nil :foreground ,chocobi-mid-gray :background ,chocobi-black))))
-   `(mode-line ((t (:box nil :bold t :foreground ,chocobi-mode :background ,chocobi-mode-back))))
-   `(fringe ((t (:background ,chocobi-background))))
+   `(default ((t (:background ,junio-background :foreground ,junio-foreground))))
+   `(cursor  ((t (:background ,junio-cursor))))
+   `(hl-line ((t (:background ,junio-black))))
+   `(mode-line-inactive ((t (:box nil :foreground ,junio-mid-gray :background ,junio-black))))
+   `(mode-line ((t (:box nil :bold t :foreground ,junio-mode :background ,junio-mode-back))))
+   `(fringe ((t (:background ,junio-background))))
    ;; Highlight region color
-   `(region ((t (:foreground ,chocobi-yellow :background ,chocobi-dark-slate))))
+   `(region ((t (:foreground ,junio-yellow :background ,junio-dark-slate))))
    ;; Dir-ed search prompt
-   `(minibuffer-prompt ((default (:foreground ,chocobi-foreground))))
+   `(minibuffer-prompt ((default (:foreground ,junio-foreground))))
 
    ;; ---------------- Code Highlighting ---------------
    ;; Builtins
-   `(font-lock-builtin-face ((t (:foreground ,chocobi-green))))
+   `(font-lock-builtin-face ((t (:foreground ,junio-green))))
    ;; Constants
-   `(font-lock-constant-face ((t (:foreground ,chocobi-constant))))
+   `(font-lock-constant-face ((t (:foreground ,junio-constant))))
    ;; Comments
-   `(font-lock-comment-face ((t (:foreground ,chocobi-comment-slate))))
+   `(font-lock-comment-face ((t (:foreground ,junio-comment-slate))))
    ;; Function names
-   `(font-lock-function-name-face ((t (:foreground ,chocobi-func))))
+   `(font-lock-function-name-face ((t (:foreground ,junio-func))))
    ;; Keywords
-   `(font-lock-keyword-face ((t (:foreground ,chocobi-key))))
+   `(font-lock-keyword-face ((t (:foreground ,junio-key))))
    ;; Strings
-   `(font-lock-string-face ((t (:foreground ,chocobi-string))))
+   `(font-lock-string-face ((t (:foreground ,junio-string))))
    ;; Variables
-   `(font-lock-variable-name-face ((t (:foreground ,chocobi-sky-blue))))
-   `(font-lock-type-face ((t (:foreground ,chocobi-type))))
-   `(font-lock-warning-face ((t (:foreground ,chocobi-warn-red :background ,chocobi-light-gray :bold t))))
+   `(font-lock-variable-name-face ((t (:foreground ,junio-sky-blue))))
+   `(font-lock-type-face ((t (:foreground ,junio-type))))
+   `(font-lock-warning-face ((t (:foreground ,junio-warn-red :background ,junio-light-gray :bold t))))
 
    ;; ---------------- Package Specific Stuff -----------
    ;; Powerline
-   `(powerline-active1 ((t (:background ,chocobi-yellow :foreground ,chocobi-background))))))
+   `(powerline-active1 ((t (:background ,junio-yellow :foreground ,junio-background))))))
 
 ;;;###autoload
 (when load-file-name
@@ -85,7 +85,7 @@
   (when (not window-system)
     (custom-set-faces '(default ((t (:background nil)))))))
 
-(provide-theme 'chocobi)
+(provide-theme 'junio)
 
 ;; Local Variables:
 ;; no-byte-compile: t

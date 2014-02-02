@@ -2,7 +2,7 @@
 
 A collection of color themes for Emacs24 +
 
-All the themes are named after personal programming and tech heroes.
+The themes are named after important/influential programmers.
 
 Fixes, pull requests and feedback very welcome : )
 

@@ -2,7 +2,7 @@
 
 A collection of color themes for Emacs24 +
 
-All the themes are named after personal programming and tech
+All the themes are named after personal programming and tech heroes.
 
 Fixes, pull requests and feedback very welcome : )
 
@@ -134,3 +134,8 @@ A grungy theme based upon an oilstained and muddy aircraft.
 
 ![](https://raw.github.com/owainlewis/emacs-color-themes/master/previews/wilson.png)
 
+## Junio
+
+A vivid theme like a chocolate
+
+![](https://raw.github.com/owainlewis/emacs-color-themes/master/previews/junio.png)

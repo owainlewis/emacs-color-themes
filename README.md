@@ -46,6 +46,18 @@ One line install script
 git clone https://github.com/owainlewis/emacs-color-themes.git && cd emacs-color-themes && ./install.sh
 ```
 
+## As an Elisp Package
+
+If the package directory is in the load path, one can simply
+
+```
+(require 'emacs-color-themes)
+```
+
+and use `load-theme` function to load any theme that is provided.
+This way, one can add the package to their Emacs configuration as is,
+without needing to add any directories, symlinks or copies.
+
 ## Brin
 
 A color theme based on the Space Grey ST2 theme named after Sergey Brin.

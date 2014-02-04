@@ -25,7 +25,7 @@
 
 (let ((wilson-oilstained-eggshell   "#6C6B59")
       (wilson-flying-boots          "#44443C")
-      (wilson-darker-flying-boots   "#3C3C35")
+      (wilson-darker-flying-boots   "#222222")
       (wilson-spring-grass          "#9BA657")
       (wilson-stained-white         "#BEBFB7")
       (wilson-darker-stained-white  "#A9AAA3")
@@ -51,6 +51,7 @@
    `(fringe ((t (:background ,wilson-darker-flying-boots))))
    ;; Dir-ed search prompt
    `(minibuffer-prompt ((default (:foreground ,wilson-stained-orange))))
+   `(linum ((t (:background, wilson-darker-flying-boots :foreground, wilson-stained-white))))
    ;; Highlight region color
    `(region ((t (:foreground ,wilson-darker-stained-white :background ,wilson-flying-boots))))
 

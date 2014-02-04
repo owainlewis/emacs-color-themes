@@ -10,7 +10,7 @@ Fixes, pull requests and feedback very welcome : )
 
 A big thanks to the following contributors
 
-+ Rysk https://github.com/rysk-t
++ Ryosuke Takeuchi https://github.com/rysk-t
 + Will Speak https://github.com/iwillspeak
 + Steve Purcell https://github.com/purcell
 + Donald Ephraim Curtis https://github.com/milkypostman

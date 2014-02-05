@@ -93,7 +93,7 @@
    `(show-paren-match ((t (:background, *keywords* :foreground, *normal* :weight bold))))
 
    ;; search
-   `(isearch ((t (:background, *regexp* :foreground, *visual-selection*))))
+   `(isearch ((t (:background, *header-line-bg* :foreground, *background*))))
    `(isearch-fail ((t (:background, *warning*))))
    `(lazy-highlight ((t (:background, *operators* :foreground, *visual-selection*))))
 

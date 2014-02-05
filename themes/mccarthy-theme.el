@@ -40,7 +40,8 @@
       (*regexp*             "#E9C")
       (*string*             "#555")
       (*variable*           "#D14")
-      (*visual-selection*   "#CCC"))
+      (*visual-selection*   "#CCC")
+      (*header-line-bg*     "#0087af"))
 
   (custom-theme-set-faces
    'mccarthy
@@ -48,7 +49,8 @@
    `(bold ((t (:bold t))))
    `(button ((t (:foreground, *keywords* :underline t))))
    `(default ((t (:background, *background* :foreground, *normal*))))
-   `(header-line ((t (:background, *mode-line-bg* :foreground, *normal*)))) ;; info header
+   ;; Colour of header lines in Proced, info, Buffer list etc...
+   `(header-line ((t (:background, *header-line-bg* :foreground, *background*))))
    `(highlight ((t (:background, *current-line*))))
    `(highlight-face ((t (:background, *current-line*))))
    `(hl-line ((t (:background, *current-line* :underline t))))
@@ -91,7 +93,7 @@
    `(show-paren-match ((t (:background, *keywords* :foreground, *normal* :weight bold))))
 
    ;; search
-   `(isearch ((t (:background, *regexp* :foreground, *visual-selection*))))
+   `(isearch ((t (:background, *header-line-bg* :foreground, *background*))))
    `(isearch-fail ((t (:background, *warning*))))
    `(lazy-highlight ((t (:background, *operators* :foreground, *visual-selection*))))
 

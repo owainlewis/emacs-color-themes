@@ -68,7 +68,8 @@
        (*regexp*             "#E9C")
        (*string*             *normal*)
        (*variable*           *method-declaration*)
-       (*visual-selection*   (ritchie-colour 'the-colour))
+       (*visual-selection*    (ritchie-colour 'the-colour))
+       (*visual-selection-fg* *background*)
        (*header-line-bg*     *visual-selection*))
 
   (custom-theme-set-faces
@@ -84,7 +85,7 @@
    `(hl-line ((t (:background, *current-line* :underline nil
                                :foreground ,*current-line-fg*))))
    `(info-xref ((t (:foreground, *keywords* :underline t))))
-   `(region ((t (:background, *visual-selection*))))
+   `(region ((t (:background, *visual-selection* :foreground ,*visual-selection-fg*))))
    `(underline ((nil (:underline t))))
 
    ;; font-lock

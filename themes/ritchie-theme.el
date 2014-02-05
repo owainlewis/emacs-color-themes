@@ -73,7 +73,7 @@
        (*header-line-bg*     *visual-selection*))
 
   (custom-theme-set-faces
-   'mccarthy
+   'ritchie
 
    `(bold ((t (:bold t))))
    `(button ((t (:foreground, *keywords* :underline t))))
@@ -112,9 +112,9 @@
    `(fringe ((t (:background, *background*))))
    `(linum ((t (:background, *line-number* :foreground ,*line-number-fg*))))
    `(minibuffer-prompt ((t (:foreground, *variable*))))
-   `(mode-line ((t (:background, *mode-line-bg* :foreground, *mode-line-fg*))))
+   `(mode-line ((t (:background, *mode-line-bg* :foreground, *mode-line-fg* :box nil))))
    `(mode-line-inactive ((t (:background, *mode-inactive-bg*
-                                          :foreground, *mode-inactive-fg*))))
+                                          :foreground, *mode-inactive-fg* :box nil))))
    `(cursor ((t (:background, *cursor-underscore*))))
    `(text-cursor ((t (:background, *cursor-underscore*))))
    `(vertical-border ((t (:foreground, *background*)))) ;; between splits

@@ -31,5 +31,8 @@ cp themes/spolsky-theme.el ~/.emacs.d/themes/spolsky-theme.el
 echo "Installing Junio"
 cp themes/junio-theme.el ~/.emacs.d/themes/junio-theme.el
 
+echo "Installing Granger"
+cp themes/granger-theme.el ~/.emacs.d/themes/granger-theme.el
+
 echo "Done..\n"
 echo "Remember to include the themes in your .emacs config i.e (load-theme 'hickey t)\n\n"

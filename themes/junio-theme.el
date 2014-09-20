@@ -24,7 +24,7 @@
 
 (let ((junio-background     "#111010")
       (junio-foreground     "#D8D8D3")
-      (junio-comment-slate  "#4F3F3F")
+      (junio-comment-slate  "#76AB55")
       (junio-black          "#000000")
       (junio-constant       "#6F8FCC")
       (junio-mid-gray       "#555555")

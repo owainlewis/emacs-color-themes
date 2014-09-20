@@ -8,13 +8,7 @@ Fixes, pull requests and feedback very welcome : )
 
 ## Contributors
 
-A big thanks to the following contributors
-
-+ Göktuğ Kayaalp https://github.com/cadadr
-+ Ryosuke Takeuchi https://github.com/rysk-t
-+ Will Speak https://github.com/iwillspeak
-+ Steve Purcell https://github.com/purcell
-+ Donald Ephraim Curtis https://github.com/milkypostman
+https://github.com/owainlewis/emacs-color-themes/graphs/contributors
 
 ## Use
 

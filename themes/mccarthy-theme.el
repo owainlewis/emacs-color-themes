@@ -17,7 +17,7 @@
 ;;
 ;; ----------------------------
 
-(unless (>= 24 emacs-major-version)
+(unless (>= emacs-major-version 24)
   (error "requires Emacs 24 or later."))
 
 (deftheme mccarthy "A dark color theme for Emacs")

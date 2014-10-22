@@ -1,5 +1,5 @@
 #!/bin/bash
-TARGET="~/.emacs.d/themes"
+TARGET=~/.emacs.d/themes
 
 echo -e "\nInstalling themes [$TARGET]..."
 mkdir -p $TARGET

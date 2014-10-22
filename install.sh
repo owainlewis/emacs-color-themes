@@ -1,4 +1,4 @@
-echo "\n\nInstalling themes.."
+echo -e "\nInstalling themes..."
 mkdir -p ~/.emacs.d/themes
 
 echo "Installing Brin"
@@ -34,5 +34,5 @@ cp themes/junio-theme.el ~/.emacs.d/themes/junio-theme.el
 echo "Installing Granger"
 cp themes/granger-theme.el ~/.emacs.d/themes/granger-theme.el
 
-echo "Done..\n"
-echo "Remember to include the themes in your .emacs config i.e (load-theme 'hickey t)\n\n"
+echo "Done."
+echo -e "Remember to include the themes in your .emacs config i.e (load-theme 'hickey t)\n"

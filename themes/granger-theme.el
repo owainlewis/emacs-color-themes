@@ -60,7 +60,11 @@
    `(font-lock-function-name-face     ((t (:foreground "#3ca380"))))
    `(font-lock-doc-string-face        ((t (:foreground "#496B83")))))
 
+;; Helm
 ;; *****************************************************************************************
+
+  `(helm-selection ((t (:background selection :underline nil))))
+  `(helm-selection-line ((t (:background selection))))
 
    )
 

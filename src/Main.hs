@@ -2,6 +2,9 @@
 {-# LANGUAGE OverloadedStrings #-}
 module Main
   ( main
+  , compileTemplate
+  , compileAndRender
+  , themeToMap
   , Theme(..)
   , Colors(..)) where
 
@@ -73,6 +76,7 @@ instance FromJSON Theme where
 
 -- ==============================================
 
+--
 colorMap :: Colors -> M.Map String HexColor
 colorMap (Colors a b c d e f g h i j k l m) =
     M.fromList [ ("background", a)

@@ -13,7 +13,7 @@
 
 ;; ---------------------------
 ;;
-;; Graham: A dark color theme
+;; Oderskey: A dark color theme
 ;;
 ;; ----------------------------
 
@@ -23,6 +23,8 @@
 (deftheme odersky "A dark color theme for Emacs")
 
 (let ((*background*         "#1E2326")
+      (*vborder*            "#FF7E00")
+      (*gutter*             "#3E3E3E")
       (*comments*           "#999999")
       (*constant*           "#F38630")
       (*current-line*       "#151515")
@@ -78,14 +80,14 @@
    `(font-lock-warning-face ((t (:foreground, *warning*))))
 
    ;; GUI
-   `(fringe ((t (:background, *background*))))
+   `(fringe ((t (:background, *gutter*))))
    `(linum ((t (:background, *line-number*))))
    `(minibuffer-prompt ((t (:foreground, *variable*))))
    `(mode-line ((t (:background, *mode-line-bg* :foreground, *mode-line-fg*))))
    `(mode-line-inactive ((t (:background, *mode-inactive-bg* :foreground, *mode-inactive-fg*))))
    `(cursor ((t (:background, *cursor-underscore*))))
    `(text-cursor ((t (:background, *cursor-underscore*))))
-   `(vertical-border ((t (:foreground, *background*)))) ;; between splits
+   `(vertical-border ((t (:foreground, *vborder*)))) ;; between splits
 
    ;; show-paren
    `(show-paren-mismatch ((t (:background, *warning* :foreground, *normal* :weight bold))))

@@ -1,41 +1,27 @@
 #!/bin/bash
-TARGET=~/.emacs.d/themes
+# This script installs the emacs-color-themes collection.
+# The default install location is $HOME/.emacs/themes
+#
+# Usage: ./install.sh [DEST]
 
-echo -e "\nInstalling themes [$TARGET]..."
-mkdir -p $TARGET
+: ${TARGET_DIR:=$1}
+: ${TARGET_DIR:=$HOME/.emacs.d/themes}
 
-echo "Installing Brin"
-cp themes/brin-theme.el $TARGET/brin-theme.el
+# make sure the installation directory exists
+if [ -d $TARGET_DIR ]; then
+    echo "$TARGET_DIR exists."
+else
+    echo "Creating $TARGET_DIR."
+    mkdir -p $TARGET_DIR
+fi
 
-echo "Installing Hickey"
-cp themes/hickey-theme.el $TARGET/hickey-theme.el
-
-echo "Installing Fogus"
-cp themes/fogus-theme.el $TARGET/fogus-theme.el
-
-echo "Installing Dorsey"
-cp themes/dorsey-theme.el $TARGET/dorsey-theme.el
-
-echo "Installing Wilson"
-cp themes/wilson-theme.el $TARGET/wilson-theme.el
-
-echo "Installing Graham"
-cp themes/graham-theme.el $TARGET/graham-theme.el
-
-echo "Installing McCarthy"
-cp themes/mccarthy-theme.el $TARGET/mccarthy-theme.el
-
-echo "Installing Odersky"
-cp themes/odersky-theme.el $TARGET/odersky-theme.el
-
-echo "Installing Spolsky"
-cp themes/spolsky-theme.el $TARGET/spolsky-theme.el
-
-echo "Installing Junio"
-cp themes/junio-theme.el $TARGET/junio-theme.el
-
-echo "Installing Granger"
-cp themes/granger-theme.el $TARGET/granger-theme.el
-
+# copy files individually
+# check for conflicts in case of customized theme files
+echo -n "Copying theme files...  "
+cp -i ./themes/*-theme.el $TARGET_DIR
 echo "Done."
-echo -e "Remember to include the themes in your .emacs config i.e (load-theme 'hickey t)\n"
+
+echo -e "\n;; To use a theme, add the following lines to your .emacs config,"
+echo -e ";; replacing <theme_name> with the name of the theme to apply:"
+echo "(add-to-list 'custom-theme-load-path \"$TARGET_DIR\")"
+echo "(load-theme '<theme_name> t)"

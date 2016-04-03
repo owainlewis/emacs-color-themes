@@ -60,13 +60,13 @@ A color theme based on the Space Grey ST2 theme named after Sergey Brin.
 > We believed we could build a better search. We had a simple idea,
 > that not all pages are created equal. Some are more important"
 
-![](https://raw.github.com/owainlewis/emacs-color-themes/master/previews/brin.png)
+![](https://raw.github.com/owainlewis/emacs-color-themes/master/resources/previews/brin.png)
 
 ## Granger
 
 A color theme based on the Light Table default
 
-![](https://raw.github.com/owainlewis/emacs-color-themes/master/previews/granger.png)
+![](https://raw.github.com/owainlewis/emacs-color-themes/master/resources/previews/granger.png)
 
 
 ## Spolsky
@@ -78,7 +78,7 @@ A color theme based on the Light Table default
 
 A theme heavily inspired by the default ST2 theme. My personal favourite.
 
-![](https://raw.github.com/owainlewis/emacs-color-themes/master/previews/spolsky.png)
+![](https://raw.github.com/owainlewis/emacs-color-themes/master/resources/previews/spolsky.png)
 
 ## Graham
 
@@ -89,13 +89,13 @@ A theme heavily inspired by the default ST2 theme. My personal favourite.
 
 A dark red, black and orange color theme
 
-![](https://raw.github.com/owainlewis/emacs-color-themes/master/previews/graham.png)
+![](https://raw.github.com/owainlewis/emacs-color-themes/master/resources/previews/graham.png)
 
 ## Odersky
 
 A color theme based on Goldfish
 
-![](https://raw.github.com/owainlewis/emacs-color-themes/master/previews/odersky.png)
+![](https://raw.github.com/owainlewis/emacs-color-themes/master/resources/previews/odersky.png)
 
 ## Hickey
 
@@ -104,7 +104,7 @@ A color theme based on Goldfish
 
 A dark theme.
 
-![](https://raw.github.com/owainlewis/emacs-color-themes/master/previews/hickey.png)
+![](https://raw.github.com/owainlewis/emacs-color-themes/master/resources/previews/hickey.png)
 
 ## Fogus
 
@@ -114,7 +114,7 @@ A dark theme.
 
 A dark blue theme which is more or less the Tron theme.
 
-![](https://raw.github.com/owainlewis/emacs-color-themes/master/previews/fogus.png)
+![](https://raw.github.com/owainlewis/emacs-color-themes/master/resources/previews/fogus.png)
 
 ## Dorsey
 
@@ -123,7 +123,7 @@ A dark blue theme which is more or less the Tron theme.
 
 A dark and grungy theme.
 
-![](https://raw.github.com/owainlewis/emacs-color-themes/master/previews/dorsey.png)
+![](https://raw.github.com/owainlewis/emacs-color-themes/master/resources/previews/dorsey.png)
 
 ## McCarthy
 
@@ -134,16 +134,16 @@ A dark and grungy theme.
 
 A light theme loosely based on Facebook colors
 
-![](https://raw.github.com/owainlewis/emacs-color-themes/master/previews/mccarthy.png)
+![](https://raw.github.com/owainlewis/emacs-color-themes/master/resources/previews/mccarthy.png)
 
 ## Wilson
 
 A grungy theme based upon an oilstained and muddy aircraft.
 
-![](https://raw.github.com/owainlewis/emacs-color-themes/master/previews/wilson.png)
+![](https://raw.github.com/owainlewis/emacs-color-themes/master/resources/previews/wilson.png)
 
 ## Junio
 
 A vivid theme like a chocolate
 
-![](https://raw.github.com/owainlewis/emacs-color-themes/master/previews/junio.png)
+![](https://raw.github.com/owainlewis/emacs-color-themes/master/resources/previews/junio.png)

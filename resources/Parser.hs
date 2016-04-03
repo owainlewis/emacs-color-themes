@@ -1,12 +1,13 @@
 module Parser
-where 
+       ( parse
+       ) where
 
 import Data.Char
 import Control.Monad
 
 newtype Parser a = P(String -> [(a, String)]
 
-instance Monad Parser where 
+instance Monad Parser where
   --identity
   return v = P(\inp -> case parse p inp of
                          [] -> []

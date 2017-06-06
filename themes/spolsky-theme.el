@@ -94,7 +94,7 @@
    `(mode-line-inactive ((t (:background, *mode-inactive-bg* :foreground, *mode-inactive-fg*))))
    `(cursor ((t (:background, *cursor-underscore*))))
    `(text-cursor ((t (:background, *cursor-underscore*))))
-   `(vertical-border ((t (:foreground, *background*)))) ;; between splits
+   `(vertical-border ((t (:background, *background*)))) ;; between splits
 
    ;; show-paren
    `(show-paren-mismatch ((t (:background, *warning* :foreground, *normal* :weight bold))))

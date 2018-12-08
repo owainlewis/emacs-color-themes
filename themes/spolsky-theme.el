@@ -23,8 +23,8 @@
 (deftheme spolsky  "A dark color theme for Emacs based on Sublime Text 2")
 
 (custom-theme-set-variables
-  'spolsky
-  '(linum-format " %7i "))
+ 'spolsky
+ '(linum-format " %7i "))
 
 (let ((*background*         "#161A1F")
       (*comments*           "#8C8C8C")
@@ -51,6 +51,12 @@
       (*string*             "#EEDC82")
       (*variable*           "#FD971F")
       (*visual-selection*   "#555"))
+
+  ;;(defvar spolsky-colours
+  ;;'((background-light   "#303439")
+  ;;(background-lighter "#494D52")
+  ;;(background-darker  "#000106")
+  ;;))
 
   (custom-theme-set-faces
    'spolsky
@@ -105,6 +111,22 @@
    `(isearch-fail ((t (:background, *warning*))))
    `(lazy-highlight ((t (:background, *operators* :foreground, *visual-selection*))))
 
+   ;; company-mode
+   `(company-tooltip ((t (:foreground, *normal* :background, *current-line*))))
+   `(company-tooltip-annotation ((t (:foreground, *variable* :background, *current-line*))))
+   `(company-tooltip-annotation-selection ((t (:foreground, *method-declaration* :background, *background*))))
+   `(company-tooltip-selection ((t (:foreground, *normal* :background, *background*))))
+   `(company-tooltip-mouse ((t (:background, *background*))))
+   `(company-tooltip-common ((t (:foreground, *type-face*))))
+   `(company-tooltip-common-selection ((t (:foreground, *type-face*))))
+   `(company-scrollbar-fg ((t (:background, *background*))))
+   `(company-scrollbar-bg ((t (:background, *background*))))
+   `(company-preview ((t (:background, *type-face*))))
+   `(company-preview-common ((t (:foreground, *type-face* :background, *background*))))
+
+   ;; company-quickhelp
+   `(company-quickhelp-color-background, *current-line*)
+   `(company-quickhelp-color-foreground, *current-line*)
    ))
 
 ;;;###autoload
@@ -117,5 +139,3 @@
 ;; Local Variables:
 ;; no-byte-compile: t
 ;; End:
-
-
